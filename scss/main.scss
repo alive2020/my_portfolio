@@ -31,7 +31,7 @@ h1,h2,h3 {
 }
 
 a {
-    color: #fff;
+    color: rgb(212, 201, 201);
     text-decoration: none;
 }
 
@@ -121,6 +121,9 @@ main {
             border-color: $secondary-color;
             @include easeOut;
         }
+    }
+    .btn-light {
+        background-color:#f6f7eb;
     }
 
 }
