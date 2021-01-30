@@ -102,9 +102,14 @@ main {
 }
 
 // Projects
+#work .lg-heading {
+    padding-bottom: 20px;
+}
+
 .projects {
+    margin-top: 20px;
     display: grid;
-    grid-gap: 0.7rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     
 
